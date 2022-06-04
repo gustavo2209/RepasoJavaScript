@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>cibertec.edu.pe</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="images/pi-favicon.gif" rel="shortcut icon" type="image/gif"/>
+
+    <link href="jq/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="jq/bootstrap/bootstrap-icons.min.css" rel="stylesheet" />
+
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 id="msg">Hola Mundo</h3>
+                <hr class="m-3" />
+                <button class="btn btn-primary" onclick="cambiarMsg();">Cambiar contenido de H3</button>
+                <button class="btn btn-success" onclick="restablecerMsg();">Restablecer contenido de H3</button>
+                <button class="btn btn-info" onclick="tomarMsg();">Tomar contenido de H3</button>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <hr />
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <input type="text" class="form-control" id="caja" />
+                <hr class="m-3" />
+                <button class="btn btn-primary" onclick="cajaPut();">Poner contenido en caja</button>
+                <button class="btn btn-info" onclick="cajaGet();">Tomar contenido de caja</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+        
+
+
+
+
+    <script src="jq/jquery-3.6.0.min.js"></script>
+    <script src="jq/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+<!--
+    EXTRA SMALL     < 576px
+    SMALL           >= 576px
+    MEDIUM          >= 768px
+    LARGE           >= 992px
+    X-LARGE         >= 1200px
+    XX-LARGE        >= 1400px
+-->
